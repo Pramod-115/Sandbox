@@ -1,0 +1,27 @@
+body {
+    background-color: #FEFEFE;
+    overflow-x: hidden;
+}
+
+.footer {
+    padding: 130px 0 50px 0;
+    background-color: #21262C;
+    color: #bfbfbf;
+    position: relative;
+}
+.footer p {
+    color: #bfbfbf;
+}
+
+.footer i {
+    color: #bfbfbf;
+}
+
+.footer .crooked_bar {
+    height: 0;
+    border-bottom: transparent 75px solid;
+    border-right: white 100vw solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

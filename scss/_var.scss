@@ -1,0 +1,26 @@
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes slidein {
+    0% {transform: translate(-50%, -50%) translateY(100%);
+        opacity: 0;}
+    100% {transform: translate(-50%, -50%) translateY(0); opacity: 1;}
+}
+
+@keyframes fadenslide {
+    0% {opacity: 0; transform: translateY(100%);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+
+
+@keyframes fadenslidedr {
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+$brandb : #605DBA;
+$brandp : #F04276;
+$lightblue : #E0E9FA;
